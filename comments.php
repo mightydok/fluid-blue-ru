@@ -74,6 +74,15 @@
 <p><input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="22" tabindex="3" />
 <label for="url"><small>Сайт</small></label></p>
 
+<?php if ( function_exists('comments_with_openid') ) : ?>
+
+<label>Или введите свой OpenID URL:</label><br/>
+<?comments_with_openid(); ?>
+<br/>
+<input type="text" name="openid_identifier" id="openid_identifier"  class="textfield" tabindex="4" style="width:300px" />
+
+<?php endif; ?>
+
 <?php endif; ?>
 
 <!--<p><small><strong>XHTML:</strong> You can use these tags: <code><?php echo allowed_tags(); ?></code></small></p>-->
