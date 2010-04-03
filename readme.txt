@@ -1,5 +1,7 @@
-Fluid Blue WordPress theme version 1.7.2
+Fluid Blue WordPress theme version 1.7.2 RU
 Visit http://srinig.com/wordpress/themes/fluid-blue/ for feedback and updates.
+
+Русский перевод - Mightydok. WebSite: http://vokulov.ru/
 
 Features
 * Fluid width
