@@ -25,7 +25,7 @@
 		<?php } ?>
 		
 		<div class="navigation">
-			<div class="alignleft"><?php next_posts_link('&laquo; Предидущие записи') ?></div>
+			<div class="alignleft"><?php next_posts_link('&laquo; Предыдущие записи') ?></div>
 			<div class="alignright"><?php previous_posts_link('Следующие записи &raquo;') ?></div>
 		</div>
 
