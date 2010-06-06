@@ -10,7 +10,7 @@
 				<h2 class="posttitle"><a href="<?php the_permalink() ?>" rel="bookmark" title="Постоянная ссылка к <?php the_title(); ?>"><?php the_title(); ?></a></h2>
 				<div class="postmetadata"><?php the_time(get_option('date_format').', '.get_option('time_format')) ?> <!-- <?php _e('Автор') ?> <?php the_author() ?> --></div>
 				<div class="postentry">
-					<?php the_content(__('Continue reading'). " &#8216;" . the_title('', '', false) . "&#8217; &raquo;"); ?>
+					<?php the_content(__('Далее'). " &#8216;" . the_title('', '', false) . "&#8217; &raquo;"); ?>
 				</div>
 		
 				<div class="postmetadata">
